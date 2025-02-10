@@ -1,13 +1,13 @@
 package entities;
 
-public class ContaBanco {
+public class BankAccount {
     
     int _id ; 
     String branch ; 
     String holder ; 
     double _balance ;
     
-    public ContaBanco(int id, String branch, String holder, double balance) {
+    public BankAccount(int id, String branch, String holder, double balance) {
         this._id = id;
         this.branch = branch;
         this.holder = holder;
@@ -54,6 +54,17 @@ public class ContaBanco {
     
     public void ChangeId(int newId) {
         setId(newId);
+    }
+
+    public String creationMessage() {
+        return 
+            "Hello " + getHolder()
+            + ", thank you for starting an account in our bank,"
+            + " your branch is " + getBranch()
+            + ", ID " + getId() 
+            + " and your balance U$" + getBalance()
+            + " is already available for withdrawal."
+        ;
     }
 
 }
