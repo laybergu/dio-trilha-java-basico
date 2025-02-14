@@ -1,4 +1,4 @@
-## ContaBanco
+## DesafioControleFluxo
 
 Bem vindo ao projeto do Contador (Counter), ele foi desenvolvido como um desafio do BootCamp Java Cloud Native da DIO. Neste projeto foi criado um programa que imprime a distância entre 2 valores, recebidos por inputs no terminal da aplicação. O intuito deste desafio foi aplicar os conhecimentos sobre tratamento de exceções, utilizando controle de fluxo.   
 
