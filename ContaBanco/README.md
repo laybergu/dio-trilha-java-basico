@@ -1,6 +1,6 @@
 ## ContaBanco
 
-Bem vindo ao repositório do ContaBanco, neste projeto foi desenvolvido o sistema de cadastro de uma conta bancária a partir dos dados do cliente, recebidos por inputs no terminal da aplicação.  
+Bem vindo ao projeto do ContaBanco, ele foi desenvolvido como um desafio do BootCamp Java Cloud Native da DIO. Neste projeto foi criado um sistema de cadastro de uma conta bancária a partir dos dados do cliente, recebidos por inputs no terminal da aplicação.  
 
 ## Estrutura
 
