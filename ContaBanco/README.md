@@ -1,18 +1,12 @@
-## Getting Started
+## ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem vindo ao repositório do ContaBanco, neste projeto foi desenvolvido o sistema de cadastro de uma conta bancária a partir dos dados do cliente, recebidos por inputs no terminal da aplicação.  
 
-## Folder Structure
+## Estrutura
 
-The workspace contains two folders by default, where:
+Este workspace contém:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `entities`: A pasta com as entidades criadas, neste caso, apenas BankAccount
+- `src/AccountTerminal.java`: A classe que roda o programa principal 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O padrão de nomeação dos componentes foi em inglês, buscando seguir convenções da comunidade internacional
