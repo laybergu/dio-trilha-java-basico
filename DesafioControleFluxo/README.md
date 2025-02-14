@@ -1,18 +1,12 @@
-## Getting Started
+## ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem vindo ao projeto do Contador (Counter), ele foi desenvolvido como um desafio do BootCamp Java Cloud Native da DIO. Neste projeto foi criado um programa que imprime a distância entre 2 valores, recebidos por inputs no terminal da aplicação. O intuito deste desafio foi aplicar os conhecimentos sobre tratamento de exceções, utilizando controle de fluxo.   
 
-## Folder Structure
+## Estrutura
 
-The workspace contains two folders by default, where:
+Este workspace contém:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `InvalidParamsException`: A classe que extende Exceptions para definir um exceção customizada.
+- `src/Counter.java`: A classe que roda o programa principal, com o método do contador.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O padrão de nomeação dos componentes foi em inglês, buscando seguir convenções da comunidade internacional
