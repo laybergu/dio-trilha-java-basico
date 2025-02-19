@@ -2,15 +2,15 @@ package entities;
 
 public class BankAccount {
     
-    int _id ; 
-    String branch ; 
-    String holder ; 
-    double _balance ;
+    private int _id ; 
+    private String _branch ; 
+    private String _holder ; 
+    private double _balance ;
     
     public BankAccount(int id, String branch, String holder, double balance) {
         this._id = id;
-        this.branch = branch;
-        this.holder = holder;
+        this._branch = branch;
+        this._holder = holder;
         this._balance = balance;
     }
 
@@ -19,11 +19,11 @@ public class BankAccount {
     }
 
     public String getBranch() {
-        return branch;
+        return _branch;
     }
 
     public String getHolder() {
-        return holder;
+        return _holder;
     }
 
     public double getBalance() {
@@ -39,7 +39,7 @@ public class BankAccount {
     }
 
     public void setHolder(String holder) {
-        this.holder = holder;
+        this._holder = holder;
     }
 
     public void Deposit(double amount) {
